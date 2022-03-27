@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/muka1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Tampil_Tugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task"
+        android:textAlignment="center"
+        android:textSize="17pt" />
+
+    <TextView
+        android:id="@+id/Tampil_Jadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jadwal"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Hasil_Jadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/Tampil_Hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hari"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Hasil_Hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/Tampil_Tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Hasil_Tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="textPersonName"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+</LinearLayout>

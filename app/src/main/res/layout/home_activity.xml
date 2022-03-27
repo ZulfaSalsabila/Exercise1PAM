@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/muka1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wlcome"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="@string/selamat_datang"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="@string/task"
+        android:textSize="16pt"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/jadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jadwal"
+        android:textSize="17pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputjadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/schedule"
+        android:inputType="textPersonName"
+        android:textSize="14pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hari"
+        android:textSize="17pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputhari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/day"
+        android:inputType="textPersonName"
+        android:textSize="14pt" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal"
+        android:textSize="17pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputtanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="textPersonName"
+        android:textSize="14pt" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabsimpan"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="130dp"
+        android:clickable="true"
+        android:contentDescription="@string/btnsignin"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</LinearLayout>
